@@ -146,7 +146,7 @@ const soraCommand = require('./commands/sora');
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029Vaf5pIEHFxOsA3Sr4r3o";
+global.channelLink = "https://whatsapp.com/channel/0029Vb7EAm1ISTkPVEl7za0m";
 global.ytch = "SILVERxTALHA";
 
 // Add this near the top of main.js with other global configurations
@@ -155,8 +155,8 @@ const channelInfo = {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363279142099991@newsletter',
-            newsletterName: 'SILVER-TECH',
+            newsletterJid: '120363419238347706@newsletter',
+            newsletterName: '𓆩 乙卂Ҝ卂尺丨ㄚ卂 𝓑𝓞𝓣 𓆪',
             serverMessageId: -1
         }
     }
@@ -197,7 +197,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
 
             if (buttonId === 'channel') {
                 await sock.sendMessage(chatId, {
-                    text: '📢 *Join our Channel:*\nhttps://whatsapp.com/channel/0029Vaf5pIEHFxOsA3Sr4r3o'
+                    text: '📢 *Join our Channel:*\nhttps://whatsapp.com/channel/0029Vb7EAm1ISTkPVEl7za0m'
                 }, { quoted: message });
                 return;
             } else if (buttonId === 'owner') {
@@ -206,7 +206,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 return;
             } else if (buttonId === 'support') {
                 await sock.sendMessage(chatId, {
-                    text: `🔗 *Support*\n\nhttps://chat.whatsapp.com/Jz6Ue0ZfLWo4iFIb7b41XB`
+                    text: `🔗 *Support*\n\nhttps://whatsapp.com/channel/0029Vb7EAm1ISTkPVEl7za0m`
                 }, { quoted: message });
                 return;
             }

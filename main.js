@@ -147,7 +147,7 @@ const soraCommand = require('./commands/sora');
 global.packname = settings.packname;
 global.author = settings.author;
 global.channelLink = "https://whatsapp.com/channel/0029Vb7EAm1ISTkPVEl7za0m";
-global.ytch = "SILVERxTALHA";
+global.ytch = "𓆩 乙卂Ҝ卂尺丨ㄚ卂 𝓑𝓞𝓣 𓆪";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
